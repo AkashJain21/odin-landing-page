@@ -1,0 +1,133 @@
+// Basic Styles
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1F2937;
+}
+
+.dark-bg {
+  background-color: #1F2937;
+}
+
+.light-gray-bg {
+  background-color: #9CA3AF;
+}
+
+.primary-text {
+  color: #F9FAFB;
+}
+
+.secondary-text {
+  color: #9CA3AF;
+}
+
+.dark-text {
+  color: #1F2937;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #3B82F6;
+  color: #E5E7EB;
+
+  &:hover {
+    background-color: #2563EB;
+  }
+}
+
+.button-secondary {
+  border: 1px solid #E5E7EB;
+  background-color: transparent;
+  color: #E5E7EB;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.button-primary:hover {
+  background-color: #2563EB;
+}
+
+// Navbar Styles
+.navbar {
+  @extend .dark-bg;
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E5E7EB;
+  }
+}
+
+// Hero Section Styles
+.hero-section {
+  padding: 4rem 0;
+
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+// Services Section Styles
+.services-section {
+  padding: 4rem 0;
+
+  .service-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .service-card {
+    img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+}
+
+// Testimonial Section Styles
+.testimonial-section {
+  padding: 4rem 0;
+  background-color: #E5E7EB;
+
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+// Call to Action Section Styles
+.call-to-action-section {
+  padding: 4rem 0;
+
+  .call-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3B82F6;
+    padding: 2rem 6rem;
+    border-radius: 10px;
+    color: #E5E7EB;
+  }
+}
